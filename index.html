@@ -2,48 +2,82 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Định dạng văn bản với CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang đọc truyện ngắn</title>
 
-    <style>
-        h1 {
-            font-size: 24px;
-            text-align: center;
-            color: blue;
-        }
-
-        p {
-            font-size: 18px;
-            text-indent: 30px;
-            text-align: justify;
-        }
-
-        .italic {
-            font-style: italic;
-        }
-
-        .red {
-            color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <h1>Định dạng văn bản với CSS</h1>
+    <div class="container">
 
-    <p>
-        CSS là ngôn ngữ được sử dụng để định dạng và trình bày các trang web.
-        CSS giúp thay đổi màu sắc, kích thước, kiểu chữ, căn chỉnh và nhiều
-        thuộc tính khác của văn bản.
-    </p>
+        <img src="story.jpg" alt="Ảnh truyện" class="story-image">
 
-    <p class="italic">
-        Đây là đoạn văn được định dạng bằng kiểu chữ nghiêng.
-    </p>
+        <h1>TRANG ĐỌC TRUYỆN NGẮN</h1>
 
-    <p class="red">
-        Đây là đoạn văn có màu đỏ.
-    </p>
+        <div class="menu">
+            <h2>Mục lục</h2>
+
+            <h5>
+                <a href="#truyen1">1. Chiếc lá cuối cùng</a>
+            </h5>
+
+            <h5>
+                <a href="#truyen2">2. Người bạn tốt</a>
+            </h5>
+
+            <h5>
+                <a href="#truyen3">3. Bài học cuộc sống</a>
+            </h5>
+        </div>
+
+        <div class="story">
+
+            <h2 id="truyen1">1. Chiếc lá cuối cùng</h2>
+
+            <p>
+                Một cô gái trẻ bị bệnh nặng và mất dần niềm tin vào cuộc sống.
+                Cô nhìn ra ngoài cửa sổ và đếm từng chiếc lá còn lại trên cây.
+                Cô nghĩ rằng khi chiếc lá cuối cùng rơi xuống thì mình cũng sẽ
+                không còn sống nữa.
+            </p>
+
+            <p>
+                Một người họa sĩ già biết được điều đó. Trong một đêm mưa lạnh,
+                ông đã vẽ một chiếc lá lên bức tường để cô gái tin rằng chiếc lá
+                cuối cùng vẫn còn ở đó.
+            </p>
+
+            <h2 id="truyen2">2. Người bạn tốt</h2>
+
+            <p>
+                Tình bạn chân thành không được thể hiện bằng những lời nói hoa mỹ
+                mà bằng hành động trong những lúc khó khăn. Một người bạn tốt
+                luôn sẵn sàng giúp đỡ và động viên chúng ta khi cần thiết.
+            </p>
+
+            <p>
+                Qua những thử thách trong cuộc sống, chúng ta mới hiểu được ai
+                thực sự là người bạn đáng tin cậy.
+            </p>
+
+            <h2 id="truyen3">3. Bài học cuộc sống</h2>
+
+            <p>
+                Cuộc sống luôn có những khó khăn và thử thách. Điều quan trọng
+                không phải là chúng ta gặp bao nhiêu khó khăn mà là cách chúng ta
+                đối mặt với chúng.
+            </p>
+
+            <p>
+                Hãy luôn cố gắng, kiên trì và tin tưởng vào bản thân. Mỗi khó khăn
+                đều có thể trở thành một bài học giúp chúng ta trưởng thành hơn.
+            </p>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
